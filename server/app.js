@@ -11,7 +11,7 @@ app.use(cors());
 
 // connect to mlab database
 mongoose.connect(
-  "mongodb+srv://balajirao:balaji7111@cluster0-ek1g6.mongodb.net/test?retryWrites=true&w=majority"
+  "mongodb+srv://balajirao:"passwd"@cluster0-ek1g6.mongodb.net/test?retryWrites=true&w=majority"
 );
 mongoose.connection.once("open", () => {
   console.log("Connected to Database");
